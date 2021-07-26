@@ -22,7 +22,12 @@ environment:
 
 dependencies:
   flutter_mobx: ^2.0.0 # Used for state management
-  flutter_modular: ^3.3.1 # Used for dependency injection, routing and project structure
+#  flutter_modular: ^3.3.1 # Used for dependency injection, routing and project structure
+  flutter_modular:
+      git:
+        url: https://github.com/Vasques1995/modular.git
+        path: flutter_modular/
+
 
   flutter:
     sdk: flutter

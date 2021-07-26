@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
         },
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.circle), label: 'circle'),
-          BottomNavigationBarItem(icon: Icon(Icons.star), label: 'star'),
+          BottomNavigationBarItem(icon: Icon(Icons.circle), label: 'circle2'),
           BottomNavigationBarItem(icon: Icon(Icons.crop_square), label: 'square'),
         ],
       ),
@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
         controller: _pageController,
         children: [
           CircleModule(),
-          StarModule(),
+          CircleModule(),
           SquareModule()
         ],
       ),
